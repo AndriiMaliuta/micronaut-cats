@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.anma
+testFramework: junit
+sourceLanguage: java
+buildTool: maven
+features: [ app-name, data, data-jdbc, docker, file-watch, h2, http-client, java, java-application, jdbc-hikari, junit, logback, management, maven, netty-server, readme, shade, views-thymeleaf, yaml ]
