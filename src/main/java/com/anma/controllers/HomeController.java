@@ -18,7 +18,9 @@ public class HomeController {
     public HttpResponse<Map> getIndex() {
 
         Map<String, Object> map = new HashMap<>();
+
         map.put("cat", new Cat("Murko", 6));
+        map.put("message", "Hello from the template!");
 
 //        return HttpResponse.ok(CollectionUtils.mapOf("name", "Vasyl", "age", 34));
         return HttpResponse.ok(map);
